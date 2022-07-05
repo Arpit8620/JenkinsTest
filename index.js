@@ -38,7 +38,7 @@
 
         dataButton.addEventListener('click',()=>{
             let y=x;
-            for(x=y;x<(y+8) && x<newData.length;x++)
+            for(x=y;x<(y+12) && x<newData.length;x++)
             {
                 displayList.push(newData[x]);
                 let newText=`${newData[x].id} is the ID and has the name ${newData[x].name} and she is from ${newData[x].address.city}`
